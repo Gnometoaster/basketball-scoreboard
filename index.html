@@ -6,11 +6,11 @@
         <div class="container">
             <div class="home-container">
                 <h3>HOME</h3>
-                <p class="home-score-el">0</p> <!--  Im having a hard time getting this text to be in the ACTUAL center -->
+                <p id="home-score-el">0</p> <!--  Im having a hard time getting this text to be in the ACTUAL center -->
                 <div class="home-btn-score">
-                    <button class="btn" onclick="homePlusOne">+1</button>
-                    <button class="btn">+2</button>
-                    <button class="btn">+3</button>
+                    <button id="home-plus-one" class="btn" onclick="homePlusOne()">+1</button> 
+                    <button id="home-plus-two" class="btn" onclick="homePlusTwo()">+2</button>
+                    <button id="home-plus-three" class="btn" onclick="homePlusThree()">+3</button>
                 </div>
             </div>
 
@@ -18,11 +18,11 @@
 
             <div class="away-container">
                 <h3>AWAY</h3>
-                <p class="away-score-el">10</p>
+                <p id="away-score-el">0</p>
                 <div class="away-btn-score">
-                    <button class="btn">+1</button>
-                    <button class="btn">+2</button>
-                    <button class="btn">+3</button>
+                    <button id="away-plus-one" class="btn" onclick="awayPlusOne()">+1</button>
+                    <button id="away-plus-two" class="btn" onclick="awayPlusTwo()">+2</button>
+                    <button id="away-plus-three" class="btn" onclick="awayPlusThree()">+3</button>
                 </div>
             </div>
         </div>
