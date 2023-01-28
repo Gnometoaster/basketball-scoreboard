@@ -55,7 +55,7 @@ function awaySafety() {
 
 function newGame() {
     if(homeCount > awayCount) {
-        alert("You know the Bears arent allowed to win, try again!" )
+        alert("You know da Bears can't win, try again!" )
     }
     else {
     homeScoreEl.textContent = 0
@@ -64,3 +64,13 @@ function newGame() {
     awayCount = 0
     }
 }
+
+// function winner() {
+//     if(homeCount > awayCount) {
+//         homeScoreEl.style.border = "3px solid green"
+//     }else if(awayCount > homeCount) {
+//         awayScoreEl.style.border = "3px solid green"
+//     }
+
+// }
+// ^^^ find out why this isn't working ^^^

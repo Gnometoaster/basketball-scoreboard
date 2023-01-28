@@ -1,6 +1,7 @@
-# Frontend Mentor - Order summary card solution
+# Scrimba - Basketball Scoreboard Project
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my version of the basketball scoreboard project from module 3 in the Scrimba front end
+developer career path.
 
 ## Table of contents
 
@@ -24,19 +25,12 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- See hover states for interactive elements
+- 
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -47,64 +41,55 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML 5
+- CSS 
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+-Javascript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Reinforced using javascript to grab html elements, attribute them to variables, and write functions using those variables to display what is in the element. Flexbox is becoming easier to write. Also wrote my first functional "if" statement and a not so functional "if-then"
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+function newGame() {
+    if(homeCount > awayCount) {
+        alert("You know da Bears can't win, try again!" )
+    }
+    else {
+    homeScoreEl.textContent = 0
+    awayScoreEl.textContent = 0
+    homeCount = 0
+    awayCount = 0
+    }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Still need to find out why my else-if stat,ent would not change the border of the score element
+```js
+function winner() {
+    if(homeCount > awayCount) {
+        homeScoreEl.style.border = "3px solid green"
+    }else if(awayCount > homeCount) {
+        awayScoreEl.style.border = "3px solid green"
+    }
+```
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - I kept this in an open tab the whole time and refernced it whenever i needed clarification on how to position something with flexbox
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Linkedin - [Add your name here](https://www.linkedin.com/in/james-bennett-0aa33aa7/))
+- GitHub - [@yourusername](https://github.com/Gnometoaster)
+- Twitter - [@yourusername](https://www.twitter.com/gnometoaster_)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
