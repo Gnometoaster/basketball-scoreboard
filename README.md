@@ -15,9 +15,6 @@ developer career path.
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,7 +22,8 @@ developer career path.
 
 Users should be able to:
 
-- 
+- add points to each team depending on what is scored 
+-start a new game at 0 points
 
 ### Screenshot
 
@@ -34,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Gnometoaster/footballl-scoreboard](https://github.com/Gnometoaster/footballl-scoreboard)
+- Live Site URL: [https://dabears.netlify.app/](https://dabears.netlify.app/)
 
 ## My process
 
