@@ -1,44 +1,70 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="home-container">
-                <h3>HOME</h3>
-                <p id="home-score-el">0</p> <!--  Im having a hard time getting this text to be in the ACTUAL center -->
-                <div class="home-btn-score">
-                    <button id="home-touchdown" class="btn" onclick="homeTouchdown()">TOUCHDOWN</button> 
-                    <button id="home-extra-one" class="btn" onclick="homeExtraOne()">+1</button>
-                    <button id="home-extra-two" class="btn" onclick="homeExtraTwo()">+2</button>
-                </div>
-                <div class="fg-btn-container">
-                    <button id="home-fg" class="btn" onclick="homeFieldGoal()">FIELD GOAL</button>
-                    <button id="home-safety" class="btn" onclick="homeSafety()">SAFETY</button>
-                </div>
-            </div>
-            <div class="mid">
-                <img id="logo" src="bears.png" alt="">
-                <button id="new-game" class="btn" onclick="newGame()">NEW GAME</button>
-            </div>  
-
-            <div class="away-container">
-                <h3>AWAY</h3>
-                <p id="away-score-el">0</p>
-                <div class="away-btn-score">
-                    <button id="away-touchdown" class="btn" onclick="awayTouchdown()">TOUCHDOWN</button>
-                    <button id="away-extra-one" class="btn" onclick="awayExtraOne()">+1</button>
-                    <button id="away-extra-two" class="btn" onclick="awayExtraTwo()">+2</button>
-                </div>
-                <div class="fg-btn-container">
-                    <button id="away-fg"class="btn" onclick="awayFieldGoal()">FIELD GOAL</button>
-                    <button id="away-safety" class="btn" onclick="awaySafety()">SAFETY</button>
-                </div>
-            </div>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-container">
+        <h3>HOME</h3>
+        <p id="home-score-el">0</p>
+        <!--  Im having a hard time getting this text to be in the ACTUAL center -->
+        <div class="home-btn-score">
+          <button id="home-touchdown" class="btn" onclick="homeTouchdown()">
+            TOUCHDOWN
+          </button>
+          <button id="home-extra-one" class="btn" onclick="homeExtraOne()">
+            +1
+          </button>
+          <button id="home-extra-two" class="btn" onclick="homeExtraTwo()">
+            +2
+          </button>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div class="fg-btn-container">
+          <button id="home-fg" class="btn" onclick="homeFieldGoal()">
+            FIELD GOAL
+          </button>
+          <button id="home-safety" class="btn" onclick="homeSafety()">
+            SAFETY
+          </button>
+        </div>
+      </div>
+      <div class="mid">
+        <img id="logo" src="bears.png" alt="" />
+        <button id="new-game" class="btn" onclick="newGame()">NEW GAME</button>
+      </div>
+
+      <div class="away-container">
+        <h3>AWAY</h3>
+        <p id="away-score-el">0</p>
+        <div class="away-btn-score">
+          <button id="away-touchdown" class="btn" onclick="awayTouchdown()">
+            TOUCHDOWN
+          </button>
+          <button id="away-extra-one" class="btn" onclick="awayExtraOne()">
+            +1
+          </button>
+          <button id="away-extra-two" class="btn" onclick="awayExtraTwo()">
+            +2
+          </button>
+        </div>
+        <div class="fg-btn-container">
+          <button id="away-fg" class="btn" onclick="awayFieldGoal()">
+            FIELD GOAL
+          </button>
+          <button id="away-safety" class="btn" onclick="awaySafety()">
+            SAFETY
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>

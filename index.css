@@ -1,141 +1,135 @@
 @font-face {
-    font-family: CursedTimer;
-    src: url("cursed-timer/CursedTimer.ttf");
+  font-family: CursedTimer;
+  src: url("cursed-timer/CursedTimer.ttf");
 }
 
 body {
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 .container {
-    display: flex;
-    justify-content: space-evenly;
-    background: linear-gradient(#091A3B, #033DA5);
-    height: 400px;
-    width: 675px;
-    margin: 20px auto;
-    padding-top: 0;
-    border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(#091a3b, #033da5);
+  height: 400px;
+  width: 675px;
+  margin: 20px auto;
+  padding-top: 0;
+  border-radius: 25px;
 }
 
 .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .away-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
 h3 {
-    font-weight: 700;
-    font-size: 40px;
-    color: #edf2fc;
-    margin: 60px auto 20px; 
+  font-weight: 700;
+  font-size: 40px;
+  color: #edf2fc;
+  margin: 60px auto 20px;
 }
 
 #logo {
-    width: 140px;
-    height: 100px;
-
+  width: 140px;
+  height: 100px;
 }
 
 #home-score-el {
-    background-color: black;
-    color: #D84315;
-    width: 155px;
-    height: 120px;
-    font-size: 90px;
-    font-family: CursedTimer;
-    border-radius: 6px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
+  background-color: black;
+  color: #d84315;
+  width: 155px;
+  height: 120px;
+  font-size: 90px;
+  font-family: CursedTimer;
+  border-radius: 6px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
 }
 
 #away-score-el {
-    background-color: black;
-    color: #D84315;
-    width: 155px;
-    height: 120px;
-    font-size: 90px;
-    font-family: CursedTimer;
-    border-radius: 6px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
+  background-color: black;
+  color: #d84315;
+  width: 155px;
+  height: 120px;
+  font-size: 90px;
+  font-family: CursedTimer;
+  border-radius: 6px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
 }
 
 .home-btn-score {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    width: 225px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 225px;
 }
 
 .away-btn-score {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    width: 225px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 225px;
 }
 
 .mid {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 75px;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 75px;
+  margin-bottom: 40px;
 }
 
 .btn {
-    font-family: 'Rubik', sans-serif;
-    height: 45px;
-    width: 45px;
-    background-color: #19192D;
-    border: 2px solid #9aabd8;
-    color: #9aabd8;
-    border-radius: 6px;
-    
+  font-family: "Rubik", sans-serif;
+  height: 45px;
+  width: 45px;
+  background-color: #19192d;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  border-radius: 6px;
 }
 
 #new-game {
-    align-self: center;
-    width: 100px;
-    height: 50px;
-    margin: 0; 
-    background: #af2e03;
-    color: #9aabd8;
+  align-self: center;
+  width: 100px;
+  height: 50px;
+  margin: 0;
+  background: #af2e03;
+  color: #9aabd8;
 }
 
 #home-touchdown {
-    width: 120px;
+  width: 120px;
 }
 
 #away-touchdown {
-    width: 120px;
+  width: 120px;
 }
 
 .fg-btn-container {
-    width: 200px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 8px;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8px;
 }
 
 .fg-btn-container > button {
-    width: 80px;
-} 
-
+  width: 80px;
+}
